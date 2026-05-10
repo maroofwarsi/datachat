@@ -13,3 +13,4 @@ data/*.xlsx
 !data/sample_sales.csv
 My_Notes.txt
 *.txt
+!requirements.txt
