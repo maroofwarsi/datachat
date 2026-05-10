@@ -1,0 +1,15 @@
+.env
+__pycache__/
+*.pyc
+venv/
+.venv/
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/
+.streamlit/secrets.toml
+data/*.csv
+data/*.xlsx
+!data/sample_sales.csv
+My_Notes.txt
+*.txt
