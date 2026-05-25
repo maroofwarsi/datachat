@@ -1,5 +1,5 @@
 """
-DataChat — Natural Language Data Analyst
+DataChat - Natural Language Data Analyst
 Run with: streamlit run app.py
 """
 
@@ -39,7 +39,7 @@ with st.sidebar:
     uploaded = st.file_uploader(
         "CSV or Excel file",
         type=["csv", "xlsx", "xls"],
-        help="Any work spreadsheet — sales data, project tracker, survey results, anything.",
+        help="Any work spreadsheet - sales data, project tracker, survey results, anything.",
     )
 
     if uploaded and uploaded.name != st.session_state.file_name:
@@ -96,7 +96,7 @@ with st.sidebar:
 
 
 # ── Main area ──────────────────────────────────────────────────────────────────
-st.title("💬 DataChat — Talk to your data")
+st.title("💬 DataChat - Talk to your data")
 
 if st.session_state.agent is None:
     # Welcome screen
@@ -124,12 +124,12 @@ if st.session_state.agent is None:
     with col2:
         st.subheader("How it works")
         st.markdown("""
-1. **Upload** any CSV or Excel file — from work, a personal project, anywhere
-2. **Ask** a question in plain English — no formulas, no SQL, no code
+1. **Upload** any CSV or Excel file - from work, a personal project, anywhere
+2. **Ask** a question in plain English - no formulas, no SQL, no code
 3. **Get** an instant answer, with an automatic chart where relevant
 
 **Powered by:**
-- 🦙 Llama 3.3 (via Groq — free, no credit card)
+- 🦙 Llama 3.3 (via Groq - free, no credit card)
 - 🔗 LangChain pandas agent
 - 📊 Plotly for charts
 - 🎈 Streamlit for the UI

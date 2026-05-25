@@ -24,7 +24,7 @@ Rules:
 - Always show the actual numbers, not just code.
 - For "show me", "list", or "what are" questions, print the results clearly.
 - For aggregation questions (totals, averages, counts), give a direct number answer.
-- Keep answers concise — one or two sentences plus the data.
+- Keep answers concise - one or two sentences plus the data.
 - If you're unsure, say so rather than guessing.
 - Format large numbers with commas (e.g. 1,234,567).
 - When the user asks for a chart or graph, describe what you would plot (the code will handle the chart separately).
@@ -36,7 +36,7 @@ def build_agent(df: pd.DataFrame):
     Create a LangChain pandas agent backed by Groq's free LLM.
 
     The agent has access to the full pandas API and will write Python code
-    internally to answer questions — you never need to write pandas yourself.
+    internally to answer questions - you never need to write pandas yourself.
 
     Args:
         df: The loaded and cleaned DataFrame to query.

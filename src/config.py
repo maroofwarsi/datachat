@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# ── Groq (free LLM API — no billing required) ──────────────────────────────────
+# ── Groq (free LLM API - no billing required) ──────────────────────────────────
 GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "")
 
 # Best free model on Groq: fast, smart, great at data tasks

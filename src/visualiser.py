@@ -2,7 +2,7 @@
 Automatic chart generation for DataChat.
 
 Detects the type of question asked and generates an appropriate
-Plotly chart from the DataFrame — no manual configuration needed.
+Plotly chart from the DataFrame - no manual configuration needed.
 """
 
 import re
